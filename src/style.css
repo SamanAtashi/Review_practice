@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  border: 2px solid red;
+  height: 100vh;
+  width: 100vw;
+}
+
+main {
+  width: 90%;
+  flex-direction: column;
+}
+
+h1,
+label {
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.add {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.head {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.red {
+  background-color: red;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-inherit {
+  display: inherit;
+}
+
+.dynamicDeleteBtn {
+  width: 90%;
+  margin: 1rem;
+}
+
+input[type='checkbox']:checked + label {
+  color: gray;
+  text-decoration: line-through;
+}
+
+.head button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 1rem;
+  color: gray;
+}
+
+.head button:hover {
+  color: black;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 1px solid rgb(224, 224, 224);
+  padding: 1rem;
+  width: 100%;
+}
+
+.item {
+  border: 0.5px solid rgb(224, 224, 224);
+  width: 100%;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemContent {
+  align-items: center;
+  width: 90%;
+  padding-left: 1rem;
+}
+
+.wrapper {
+  width: 50%;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.space-right {
+  margin-right: 1rem;
+}
+
+.label {
+  padding: 1rem;
+  width: 100%;
+  display: inline-block;
+}
+
+.fa-ellipsis-v,
+.fa-trash-alt {
+  padding: 1rem 2rem;
+  cursor: move;
+}
+
+.dragging {
+  background-color: gray;
+}
+
+#getAdd {
+  width: 85%;
+  border: none;
+  font-size: 1rem;
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+#getAdd:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#getAdd-btn {
+  width: 15%;
+  border: none;
+  background-color: transparent;
+  color: rgb(199, 199, 199);
+  cursor: pointer;
+}
+
+#clearAllComp {
+  border: none;
+  font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  background-color: transparent;
+  color: gray;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#clearAllComp:hover {
+  color: red;
+}
